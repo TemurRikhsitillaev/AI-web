@@ -9,7 +9,7 @@ const Input = () => {
   const [inputValue, setInputValue] = useState("");
   const loading = false;
   return (
-    <div className="w-full flex gap-2 border border-border flex items-center px-2.5 rounded-full">
+    <div className="w-full flex gap-2 border border-border items-center px-2.5 rounded-full">
       <input
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
