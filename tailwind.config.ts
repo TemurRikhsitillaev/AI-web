@@ -12,7 +12,7 @@ const config: Config = {
         background: "var(--background)",
         border: "hsla(0, 0%, 100%, .15)",
         primary: "var(--primary)",
-        userResponse: "#2f2f2f",
+        prompt: "#2f2f2f",
       },
       borderRadius: {
         buttonRadius: "0.5rem",
@@ -22,9 +22,11 @@ const config: Config = {
       center: true,
       padding: {
         DEFAULT: "1rem",
-
-        xl: "10rem",
-        "2xl": "17rem",
+        sm: "1rem",
+        md: "1rem",
+        lg: "1rem",
+        xl: "15rem",
+        "2xl": "20rem",
       },
     },
   },

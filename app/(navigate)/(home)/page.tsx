@@ -7,9 +7,11 @@ export default () => (
   <>
     <Header />
     <main className="my-auto">
-      <section className="container h-[calc(100vh-58px-35px)]">
+      <section className="h-[calc(100vh-58px-35px)]">
         <ChatInfo />
-        <Input />
+        <div className="container">
+          <Input />
+        </div>
       </section>
     </main>
     <Footer />

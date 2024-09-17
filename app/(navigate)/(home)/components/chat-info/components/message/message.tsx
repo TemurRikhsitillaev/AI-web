@@ -1,16 +1,12 @@
-import clsx from "clsx";
+import Prompt from "./prompt";
+import Response from "./response";
 
 interface MessageProps {
-  text?: string;
+  text: string;
   isResponce?: boolean;
 }
 
-const Message = ({ text, isResponce = true }: MessageProps) => (
-  <div
-    className={clsx("max-w-[70%] w-fit px-5 py-2.5 rounded-3xl", isResponce && "bg-userResponse")}
-  >
-    <p className="whitespace-pre-wrap">{text}</p>
-  </div>
-);
+const Message = ({ text, isResponce = true }: MessageProps) =>
+  isResponce ? <Response text={text} /> : <Prompt text={text} />;
 
 export default Message;
