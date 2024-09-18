@@ -3,10 +3,10 @@ import Response from "./response";
 
 interface MessageProps {
   text: string;
-  isResponce?: boolean;
+  isResponse?: boolean;
 }
 
-const Message = ({ text, isResponce = true }: MessageProps) =>
-  isResponce ? <Response text={text} /> : <Prompt text={text} />;
+const Message = ({ text, isResponse = true }: MessageProps) =>
+  isResponse ? <Response text={text} /> : <Prompt text={text} />;
 
 export default Message;

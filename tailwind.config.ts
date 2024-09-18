@@ -13,6 +13,8 @@ const config: Config = {
         border: "hsla(0, 0%, 100%, .15)",
         primary: "var(--primary)",
         prompt: "#2f2f2f",
+        sidebar: "#171717",
+        hover: "#212121",
       },
       borderRadius: {
         buttonRadius: "0.5rem",

@@ -6,6 +6,7 @@ interface IconButtonProps {
   className?: string;
   disabled?: boolean;
   loading?: boolean;
+  onClick?: () => void;
 }
 
 const IconButton = ({
@@ -14,6 +15,7 @@ const IconButton = ({
   className,
   disabled = false,
   loading = false,
+  onClick,
 }: IconButtonProps) => (
   <button
     type={htmlType}
@@ -22,6 +24,11 @@ const IconButton = ({
       "inline-block active:transform active:translate-y-0.5 disabled:cursor-not-allowed",
       className
     )}
+    onClick={() => {
+      if (onClick) {
+        onClick();
+      }
+    }}
   >
     {children}
   </button>
