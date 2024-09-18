@@ -4,7 +4,7 @@ import Message from "./components/message";
 const ChatInfo = () => {
   if (!sampleChatContent.length) return null;
   return (
-    <div className="h-[calc(100%-54px-20px)] w-full mb-5 overflow-y-auto flex flex-col gap-5 md:px-0 px-4">
+    <div className="w-full mb-5 overflow-y-auto flex flex-col gap-5 md:px-0 px-4">
       {sampleChatContent.map((chat) => (
         <>
           <article

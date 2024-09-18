@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import React from "react";
 
 interface IconButtonProps {
   children: React.ReactNode;
@@ -6,7 +7,7 @@ interface IconButtonProps {
   className?: string;
   disabled?: boolean;
   loading?: boolean;
-  onClick?: () => void;
+  onClick?: (e: React.MouseEvent) => void;
 }
 
 const IconButton = ({
@@ -24,9 +25,9 @@ const IconButton = ({
       "inline-block active:transform active:translate-y-0.5 disabled:cursor-not-allowed",
       className
     )}
-    onClick={() => {
+    onClick={(e) => {
       if (onClick) {
-        onClick();
+        onClick(e);
       }
     }}
   >

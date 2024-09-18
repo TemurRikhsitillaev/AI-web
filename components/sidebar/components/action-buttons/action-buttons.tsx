@@ -5,7 +5,7 @@ import SideBarLineIcon from "remixicon-react/SideBarLineIcon";
 import EditBoxLineIcon from "remixicon-react/EditBoxLineIcon";
 
 const ActionButtons = () => (
-  <div className="flex justify-between">
+  <div className="flex justify-between pb-3">
     <IconButton className="hover:bg-hover rounded-lg p-1.5">
       <SideBarLineIcon size={22} />
     </IconButton>

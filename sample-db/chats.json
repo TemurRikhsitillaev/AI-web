@@ -88,5 +88,107 @@
     "title": "Version Control with Git",
     "uuid": "o5p6q7r8-s9t0-u1v2-w3x4-y5z6a7b8c9d0",
     "lastEdited": "2024-08-16T17:50:10Z"
+  },
+  {
+    "id": 16,
+    "title": "JavaScript Async Programming",
+    "uuid": "p6q7r8s9-t0u1-v2w3-x4y5-z6a7b8c9d0e1",
+    "lastEdited": "2024-08-15T08:15:30Z"
+  },
+  {
+    "id": 17,
+    "title": "GraphQL vs REST APIs",
+    "uuid": "q7r8s9t0-u1v2-w3x4-y5z6-a7b8c9d0e1f2",
+    "lastEdited": "2024-08-14T12:25:20Z"
+  },
+  {
+    "id": 18,
+    "title": "Blockchain Technology",
+    "uuid": "r8s9t0u1-v2w3-x4y5-z6a7-b8c9d0e1f2g3",
+    "lastEdited": "2024-08-13T16:30:50Z"
+  },
+  {
+    "id": 19,
+    "title": "Design Patterns in JavaScript",
+    "uuid": "s9t0u1v2-w3x4-y5z6-a7b8-c9d0e1f2g3h4",
+    "lastEdited": "2024-08-12T10:45:40Z"
+  },
+  {
+    "id": 20,
+    "title": "OAuth 2.0 Authentication",
+    "uuid": "t0u1v2w3-x4y5-z6a7-b8c9-d0e1f2g3h4i5",
+    "lastEdited": "2024-08-11T11:55:30Z"
+  },
+  {
+    "id": 21,
+    "title": "Testing with Jest in React",
+    "uuid": "u1v2w3x4-y5z6-a7b8-c9d0-e1f2g3h4i5j6",
+    "lastEdited": "2024-08-10T14:20:10Z"
+  },
+  {
+    "id": 22,
+    "title": "Web Accessibility Standards",
+    "uuid": "v2w3x4y5-z6a7-b8c9-d0e1-f2g3h4i5j6k7",
+    "lastEdited": "2024-08-09T13:50:20Z"
+  },
+  {
+    "id": 23,
+    "title": "Progressive Web Apps (PWA)",
+    "uuid": "w3x4y5z6-a7b8-c9d0-e1f2-g3h4i5j6k7l8",
+    "lastEdited": "2024-08-08T17:35:40Z"
+  },
+  {
+    "id": 24,
+    "title": "TypeScript in Node.js",
+    "uuid": "x4y5z6a7-b8c9-d0e1-f2g3-h4i5j6k7l8m9",
+    "lastEdited": "2024-08-07T18:20:50Z"
+  },
+  {
+    "id": 25,
+    "title": "CSS Preprocessors: SASS vs LESS",
+    "uuid": "y5z6a7b8-c9d0-e1f2-g3h4-i5j6k7l8m9n0",
+    "lastEdited": "2024-08-06T20:10:00Z"
+  },
+  {
+    "id": 26,
+    "title": "Building Microservices",
+    "uuid": "z6a7b8c9-d0e1-f2g3-h4i5-j6k7l8m9n0o1",
+    "lastEdited": "2024-08-05T22:25:10Z"
+  },
+  {
+    "id": 27,
+    "title": "Introduction to Docker Swarm",
+    "uuid": "a7b8c9d0-e1f2-g3h4-i5j6-k7l8m9n0o1p2",
+    "lastEdited": "2024-08-04T12:15:30Z"
+  },
+  {
+    "id": 28,
+    "title": "Introduction to GraphQL",
+    "uuid": "b8c9d0e1-f2g3-h4i5-j6k7-l8m9n0o1p2q3",
+    "lastEdited": "2024-08-03T14:25:40Z"
+  },
+  {
+    "id": 29,
+    "title": "WebSocket Basics",
+    "uuid": "c9d0e1f2-g3h4-i5j6-k7l8-m9n0o1p2q3r4",
+    "lastEdited": "2024-08-02T15:35:20Z"
+  },
+  {
+    "id": 30,
+    "title": "Event-Driven Architecture",
+    "uuid": "d0e1f2g3-h4i5-j6k7-l8m9-n0o1p2q3r4s5",
+    "lastEdited": "2024-08-01T19:45:50Z"
+  },
+  {
+    "id": 31,
+    "title": "WebSocket Basics",
+    "uuid": "c9d0e1f2-g3h4-i5j6-k7l8-m9n0o1p2q313",
+    "lastEdited": "2024-08-02T15:35:20Z"
+  },
+  {
+    "id": 32,
+    "title": "Event-Driven Architecture",
+    "uuid": "d0e1f2g3-h4i5-j6k7-l8m9-n0o1p2q3r315",
+    "lastEdited": "2024-08-01T19:45:50Z"
   }
 ]
